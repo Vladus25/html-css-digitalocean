@@ -1,0 +1,71 @@
+/* Intestazione Generali della pagina */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.contenitore-principale{
+  width: 80%;
+  margin:0 auto;
+}
+
+/* Header */
+header{
+  background-color: white;
+}
+
+/* Navigazione */
+
+.back-white{
+  background-color: white;
+}
+
+#logo{
+  max-height: 40px;
+  margin-top: 20px;
+}
+
+.navigazione{
+  background-color: white;
+  border: none;
+  height: 90px;
+  text-align: center;
+  width: 80%;
+  margin:0 auto;
+}
+
+.margine-sopra-sinistra{
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.margine-sopra-sinistra li a{
+  font-size: 18px;
+  color: black;
+}
+
+.margine-sopra-destra{
+  margin-top: 20px;
+}
+
+.margine-sopra-destra li{
+  font-size: 18px;
+  color: black;
+}
+
+p{
+  width: 100%;
+  height: 2000px;
+  background-color: red;
+}
