@@ -15,6 +15,10 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+a:focus, a:hover{
+  color: blue;
+  text-decoration: none;
+}
 .contenitore-principale{
   width: 80%;
   margin:0 auto;
@@ -25,7 +29,26 @@ header{
   background-color: white;
 }
 
+.asd{
+  margin-top: 50px;
+}
+
 /* Navigazione */
+
+@media all and (min-width: 768px) and (max-width: 1199px) {
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+
+  .navbar-header{
+    width: 100%;
+  }
+
+  .navbar-toggle{
+    display: block;
+    margin-right: 0;
+  }
+}
 
 .back-white{
   background-color: white;
@@ -40,8 +63,6 @@ header{
   background-color: white;
   border: none;
   height: 90px;
-  text-align: center;
-  width: 80%;
   margin:0 auto;
 }
 
@@ -50,22 +71,127 @@ header{
   margin-left: 50px;
 }
 
-.margine-sopra-sinistra li a{
+.navbar-default .navbar-nav > li > a{
   font-size: 18px;
   color: black;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  background-color: white;
+}
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+  max-height: 370px;
 }
 
 .margine-sopra-destra{
   margin-top: 20px;
 }
 
-.margine-sopra-destra li{
-  font-size: 18px;
-  color: black;
+.buton-sign{
+  border-color: #006aff;
+  font-size: 16px;
+  color: #006aff;
 }
 
-p{
-  width: 100%;
-  height: 2000px;
-  background-color: red;
+.navbar-default .navbar-toggle {
+  margin-top: 25px;
+  border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #006aff;
+}
+
+
+/* Main */
+
+/* The simplest cloud for developer */
+
+.jumbo-top{
+  margin-top: 90px;
+}
+
+#sfondo-fish{
+  background-image: url("../img/jumbo.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contenitore-titolo h1{
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.contenitore-titolo p{
+  color: rgba(217, 217, 217, 0.61);
+  font-size: 20px;
+  margin: 15px 0 15px 0;
+}
+
+.contenitore-deploy{
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contenitore-deploy h2{
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.contenitore-deploy a h2{
+  padding-bottom: 10px;
+  color: #006aff;
+}
+
+/* form sign */
+
+.form-sign-in input{
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border: 1px solid;
+  border-color: rgba(108, 117, 125, 0.21);
+  border-radius: 5px;
+  height: 40px;
+  width: 90%;
+  margin: 7px 5%;
+  padding-left: 5px;
+}
+
+.fix-account{
+  background-color: rgb(0, 146, 252);
+  color: white;
+  display: inline-block;
+  width: 90%;
+  padding: 5px 0;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+.google-login a{
+  color: grey;
+  font-weight: bold;
+  display: inline-block;
+  width: 90%;
+  padding: 5px 0;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.google-login a img{
+  max-height: 20px;
+}
+
+.licencia{
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.terms-service{
+  text-decoration: underline;
+  color: rgb(0, 146, 252);
 }
