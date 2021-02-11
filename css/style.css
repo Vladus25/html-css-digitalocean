@@ -36,17 +36,17 @@ header{
 /* Navigazione */
 
 @media all and (min-width: 768px) and (max-width: 1199px) {
-  .navbar-collapse.collapse {
-    display: none!important;
+  .navbar-toggle{
+    display: block;
+    margin-right: 0;
   }
 
   .navbar-header{
     width: 100%;
   }
 
-  .navbar-toggle{
-    display: block;
-    margin-right: 0;
+  .navbar-collapse.collapse {
+    display: none!important;
   }
 }
 
@@ -57,6 +57,7 @@ header{
 #logo{
   max-height: 40px;
   margin-top: 20px;
+  margin-right: 50px;
 }
 
 .navigazione{
@@ -68,7 +69,6 @@ header{
 
 .margine-sopra-sinistra{
   margin-top: 20px;
-  margin-left: 50px;
 }
 
 .navbar-default .navbar-nav > li > a{
@@ -194,4 +194,23 @@ header{
 .terms-service{
   text-decoration: underline;
   color: rgb(0, 146, 252);
+}
+
+/* Customers */
+
+.sfondo-grey{
+  background-color: #f3f5f9;
+}
+
+.centratura{
+  text-align: center;
+}
+
+.margin-customers{
+  margin: 40px 0;
+}
+
+.margin-customers-2{
+  font-size: 16px;
+  margin: 25px 0;
 }
