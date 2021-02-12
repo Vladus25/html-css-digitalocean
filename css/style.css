@@ -181,10 +181,12 @@ header{
   border: 1px solid;
   border-radius: 5px;
   margin: 5px 0;
+  padding-right: 120px;
 }
 
 .google-login a img{
   max-height: 20px;
+  padding-right: 120px;
 }
 
 .licencia{
@@ -355,7 +357,7 @@ ul.scala-deploy{
 
 /* 12 Regions */
 
-#back-blue-gradient{
+.back-blue-gradient{
   background: linear-gradient(to bottom, #2285fd, #031c4e);
 }
 
@@ -387,4 +389,69 @@ ul.scala-deploy{
 .tabella-velocita td:last-child{
   font-weight: bold;
   text-align: right;
+}
+
+/* Love DigitalOcean */
+
+.contenitore-love-ocean{
+  margin-bottom: 60px;
+}
+
+.contenitore-love-ocean .cerchi{
+  margin-top: 25px;
+}
+
+.contenitore-rockerbox{
+  background-color: white;
+  height: 370px;
+  margin: 0 20%;
+  border-radius: 5px;
+}
+
+.contenitore-rockerbox img{
+  margin: 60px 0 25px 0;
+}
+
+.contenitore-rockerbox p{
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(84, 84, 84);
+}
+
+.contenitore-rockerbox h5{
+  font-size: 16px;
+  color: rgba(0, 29, 68, 1);
+  margin: 10px 0;
+}
+
+.fix-pad{
+  margin: 50px 0;
+  font-size: 16px;
+}
+
+/* Started now */
+
+.contenitore-started h2{
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 70px 0 30px 0;
+}
+
+.contenitore-started .btn{
+  padding: 10px 20px;
+  font-size: 16px;
+  color: rgb(0, 125, 255);
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+/* Footer */
+
+.back-blue-scuro{
+  background-color: rgb(0, 13, 80);
+}
+
+.lista-footer{
+
 }
