@@ -218,6 +218,11 @@ header{
   margin: 25px 0;
 }
 
+.contenitore-customers img{
+  max-width: 100%;
+  height: 150px;
+}
+
 
 /* Scale seamlessly  */
 
@@ -298,7 +303,8 @@ ul.scala-deploy{
 }
 
 .img-frecce img{
-  max-height: 400px;
+  max-width: 100%;
+  height: 400px;
   margin: 30px 0;
 }
 
@@ -351,4 +357,34 @@ ul.scala-deploy{
 
 #back-blue-gradient{
   background: linear-gradient(to bottom, #2285fd, #031c4e);
+}
+
+.margine-h2{
+  color: white;
+  margin: 70px 0 20px 0;
+  font-weight: bold;
+  font-size: 37px;
+}
+
+/* Tabella */
+
+.table .no-border-top{
+  border: none;
+}
+
+.table-hover > tbody > tr:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.tabella-velocita tr th{
+  color: white;
+}
+
+.tabella-velocita td:first-line{
+  color: rgba(154, 154, 154, 1);
+}
+
+.tabella-velocita td:last-child{
+  font-weight: bold;
+  text-align: right;
 }
