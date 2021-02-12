@@ -19,6 +19,7 @@ a:focus, a:hover{
   color: blue;
   text-decoration: none;
 }
+
 .contenitore-principale{
   width: 80%;
   margin:0 auto;
@@ -224,8 +225,8 @@ header{
   margin: 50px 0;
 }
 
-.contenitore-seamlessly h3{
-  font-size: 30px;
+.contenitore-seamlessly h2{
+  font-size: 35px;
   font-weight: bold;
   color: rgba(0, 29, 68, 1);
   padding-bottom: 10px;
@@ -261,4 +262,93 @@ ul.scala-deploy{
 .pad-sez-scale h4{
   font-size: 22px;
   color: rgba(0, 29, 68, 1);
+}
+
+/* Designed for developers */
+
+.contenitore-designed{
+  margin: 50px 0;
+}
+
+.contenitore-designed h2{
+  font-size: 35px;
+  font-weight: bold;
+  color: rgba(0, 29, 68, 1);
+}
+
+.contenitore-designed p{
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(84, 84, 84);
+  padding: 25px 0;
+}
+
+.img-frecce i{
+  font-size: 45px;
+}
+
+.img-frecce .fa-angle-left{
+  color: rgba(0, 29, 68, 0.6);
+  padding-right: 20px;
+}
+
+.img-frecce .fa-angle-right{
+  color: rgba(0, 29, 68, 1);
+  padding-left: 20px;
+}
+
+.img-frecce img{
+  max-height: 400px;
+  margin: 30px 0;
+}
+
+.cerchi{
+  color: rgba(0, 95, 222, 1);
+}
+
+.contenitore-designed h4{
+  color: rgba(0, 29, 68, 1);
+  margin-bottom: 15px;
+}
+
+@media all and (max-width: 768px){
+  .col-xs-12 .fa-angle-left, .col-xs-12 .fa-angle-right{
+    display: none;
+  }
+}
+
+/* The features your business needs */
+
+#margine-testo{
+  font-size: 35px;
+  font-weight: bold;
+  margin: 50px 0 40px 0;
+  text-align: center;
+  color: rgba(0, 29, 68, 1);
+}
+
+.contenitore-features h4{
+  color: rgba(0, 29, 68, 1);
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.contenitore-features img{
+  margin-top: 15px;
+}
+
+.contenitore-features p{
+  font-size: 16px;
+  color: rgb(84, 84, 84);
+}
+
+.margine-sotto{
+  margin-bottom: 60px;
+}
+
+
+/* 12 Regions */
+
+#back-blue-gradient{
+  background: linear-gradient(to bottom, #2285fd, #031c4e);
 }
