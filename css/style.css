@@ -30,7 +30,7 @@ header{
   background-color: white;
 }
 
-.asd{
+.margine-1{
   margin-top: 50px;
 }
 
@@ -403,7 +403,6 @@ ul.scala-deploy{
 
 .contenitore-rockerbox{
   background-color: white;
-  height: 370px;
   margin: 0 20%;
   border-radius: 5px;
 }
@@ -425,7 +424,7 @@ ul.scala-deploy{
 }
 
 .fix-pad{
-  margin: 50px 0;
+  margin-top: 50px;
   font-size: 16px;
 }
 
@@ -448,10 +447,49 @@ ul.scala-deploy{
 
 /* Footer */
 
+.contenitore-footer{
+  margin: 70px 0;
+}
+
 .back-blue-scuro{
   background-color: rgb(0, 13, 80);
 }
 
-.lista-footer{
+.contenitore-footer ul {
+  list-style-type: none;
+}
 
+.lista-footer li h4{
+  color: white;
+  font-weight: bold;
+
+}
+
+.lista-footer li a{
+  color: rgb(170, 170, 170);
+  font-size: 16px;
+}
+
+.lista-footer li{
+  margin: 10px 0;
+}
+
+.social-network{
+  font-size: 25px;
+}
+
+.social-network i{
+  padding: 10px 5px;
+  color: rgb(170, 170, 170);
+}
+
+#footer-tekst{
+  font-size: 16px;
+  color: rgb(170, 170, 170);
+  margin: 5px 0;
+}
+
+#footer-tekst-2{
+  color: rgb(131, 131, 131);
+  margin: 5px 0;
 }
