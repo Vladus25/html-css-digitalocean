@@ -12,7 +12,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 a:focus, a:hover{
@@ -125,7 +125,7 @@ header{
 }
 
 .contenitore-titolo p{
-  color: rgba(217, 217, 217, 0.61);
+  color: lightgrey;
   font-size: 20px;
   margin: 15px 0 15px 0;
 }
@@ -172,7 +172,7 @@ header{
   margin: 5px 0;
 }
 .google-login a{
-  color: grey;
+  color: rgb(84, 84, 84);
   font-weight: bold;
   display: inline-block;
   width: 90%;
@@ -208,9 +208,57 @@ header{
 
 .margin-customers{
   margin: 40px 0;
+  font-weight: bold;
+  color: rgb(84, 84, 84);
 }
 
 .margin-customers-2{
   font-size: 16px;
   margin: 25px 0;
+}
+
+
+/* Scale seamlessly  */
+
+.contenitore-seamlessly{
+  margin: 50px 0;
+}
+
+.contenitore-seamlessly h3{
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(0, 29, 68, 1);
+  padding-bottom: 10px;
+}
+
+.font-misure{
+  font-size: 22px;
+  color: rgb(84, 84, 84);
+  padding-bottom: 40px;
+}
+
+ul.scala-deploy{
+  border-left: 2px solid;
+  border-color: rgb(84, 84, 84);
+}
+
+.scala-deploy li{
+  list-style: none;
+  font-size: 18px;
+  padding: 5px 0 10px 5px;
+  color: rgb(84, 84, 84);
+}
+
+.pad-sez-scale img, .pad-sez-scale h4, .pad-sez-scale p{
+  padding: 7px 0;
+}
+
+.pad-sez-scale p{
+  font-size: 16px;
+  color: rgb(84, 84, 84);
+}
+
+.pad-sez-scale h4{
+  font-size: 22px;
+  color: rgba(0, 29, 68, 1);
 }
