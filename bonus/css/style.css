@@ -320,7 +320,7 @@ ul.scala-deploy{
 }
 
 @media all and (max-width: 768px){
-  .col-xs-12 .fa-angle-left, .col-xs-12 .fa-angle-right{
+  .col-xs-12 .carousel-control{
     display: none;
   }
 }
