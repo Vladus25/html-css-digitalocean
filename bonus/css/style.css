@@ -554,3 +554,59 @@ ul.scala-deploy{
   color: rgb(131, 131, 131);
   margin: 5px 0;
 }
+
+/* Help */
+
+.help{
+  position: fixed;
+  font-size: 35px;
+  background-color: #006aff;
+  border-radius: 10px;
+  padding: 8px 16px;
+  z-index: 950;
+  bottom: 20px;
+  right: 20px;
+}
+
+.help i{
+  color: white;
+}
+
+.notifica{
+  border: 5px solid white;
+  font-size: 20px;
+  position: absolute;
+  width: 40px;
+  left: 45px;
+  bottom: 45px;
+  background-color: red;
+  border-radius: 50%;
+  padding-left: 9px;
+  color: white;
+}
+
+.need-help{
+  display: none;
+  position: absolute;
+  width: 300px;
+  right: 80px;
+  bottom: 5px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.need-help h5{
+  font-size: 15px;
+}
+
+.help:hover .need-help{
+  display: block;
+}
+
+@media all and (max-width: 767px){
+  .help{
+    display: none;
+  }
+}
