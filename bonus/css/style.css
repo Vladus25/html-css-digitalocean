@@ -359,6 +359,13 @@ ul.scala-deploy{
   background-color: rgba(0, 95, 222, 1);
 }
 
+.carousel-control{
+  color: #337ab7;
+}
+
+.carousel-control:hover{
+  color: rgba(0, 29, 68, 1);
+}
 /* The features your business needs */
 
 #margine-testo{
