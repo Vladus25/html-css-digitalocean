@@ -74,7 +74,12 @@ header{
 
 .navbar-default .navbar-nav > li > a{
   font-size: 18px;
+  font-weight: bold;
   color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+  color: #006aff;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
@@ -104,6 +109,10 @@ header{
   background-color: #006aff;
 }
 
+.buton-sign:hover{
+  background-color: #006aff;
+  color: white;
+}
 
 /* Main */
 
@@ -145,6 +154,9 @@ header{
 
 .contenitore-deploy a h2{
   padding-bottom: 10px;
+}
+
+.contenitore-deploy a h2:hover{
   color: #006aff;
 }
 
@@ -172,6 +184,11 @@ header{
   border-radius: 5px;
   margin: 5px 0;
 }
+
+.fix-account:hover{
+  background-color: #006aff;
+}
+
 .google-login a{
   color: rgb(84, 84, 84);
   font-weight: bold;
@@ -181,12 +198,20 @@ header{
   border: 1px solid;
   border-radius: 5px;
   margin: 5px 0;
-  padding-right: 120px;
+  padding-right: 10px;
+}
+
+.google-login span{
+  text-align: left;
+}
+
+.google-login a:hover{
+  background-color: rgba(108, 117, 125, 0.6) ;
 }
 
 .google-login a img{
   max-height: 20px;
-  padding-right: 120px;
+  padding-right: 10px;
 }
 
 .licencia{
@@ -195,8 +220,11 @@ header{
 }
 
 .terms-service{
-  text-decoration: underline;
   color: rgb(0, 146, 252);
+}
+
+.terms-service:hover{
+  text-decoration: underline;
 }
 
 /* Customers */
@@ -395,6 +423,7 @@ ul.scala-deploy{
 
 .contenitore-love-ocean{
   margin-bottom: 60px;
+  position: relative;
 }
 
 .contenitore-love-ocean .cerchi{
@@ -405,6 +434,28 @@ ul.scala-deploy{
   background-color: white;
   margin: 0 20%;
   border-radius: 5px;
+}
+
+.contenitore-love-ocean .fa-angle-left{
+  position: absolute;
+  left: 15%;
+  top: 32%;
+  font-size: 45px;
+  color: rgba(0, 29, 68, 0.6);
+}
+
+.contenitore-love-ocean .fa-angle-right{
+  position: absolute;
+  right: 15%;
+  top: 32%;
+  font-size: 45px;
+  color: rgba(0, 29, 68,);
+}
+
+@media all and (max-width: 768px){
+  .contenitore-love-ocean .fa-angle-left, .contenitore-love-ocean .fa-angle-right{
+    display: none;
+  }
 }
 
 .contenitore-rockerbox img{
@@ -423,8 +474,9 @@ ul.scala-deploy{
   margin: 10px 0;
 }
 
-.fix-pad{
+.contenitore-rockerbox h6{
   margin-top: 50px;
+  padding-bottom: 50px;
   font-size: 16px;
 }
 
@@ -474,6 +526,10 @@ ul.scala-deploy{
   margin: 10px 0;
 }
 
+.lista-footer li a:hover{
+  color: white;
+}
+
 .social-network{
   font-size: 25px;
 }
@@ -481,6 +537,10 @@ ul.scala-deploy{
 .social-network i{
   padding: 10px 5px;
   color: rgb(170, 170, 170);
+}
+
+.social-network i:hover{
+  color: white;
 }
 
 #footer-tekst{
