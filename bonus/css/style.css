@@ -254,7 +254,6 @@ header{
   height: 150px;
 }
 
-
 /* Scale seamlessly  */
 
 .contenitore-seamlessly{
@@ -525,10 +524,10 @@ ul.scala-deploy{
   list-style-type: none;
 }
 
-.lista-footer li h4{
+.lista-footer h4{
   color: white;
   font-weight: bold;
-
+  padding: 5px 0;
 }
 
 .lista-footer li a{
