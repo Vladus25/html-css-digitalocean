@@ -325,7 +325,7 @@ ul.scala-deploy{
   }
 }
 
-/* Carosel */
+/* Carousel-1 */
 
 .img-responsive,
 .thumbnail > img,
@@ -366,6 +366,7 @@ ul.scala-deploy{
 .carousel-control:hover{
   color: rgba(0, 29, 68, 1);
 }
+
 /* The features your business needs */
 
 #margine-testo{
@@ -492,6 +493,10 @@ ul.scala-deploy{
   padding-bottom: 50px;
   font-size: 16px;
 }
+
+/* Carousel-2 */
+
+
 
 /* Started now */
 
